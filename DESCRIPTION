@@ -1,0 +1,23 @@
+Package: AMRsteward
+Type: Package
+Title: STEWARDING ANTIBIOTIC STEWARDSHIP IN ICUS WITH BAYESIAN ARTIFICIAL INTELLIGENCE
+Version: 0.1.0
+Author: Tavpritesh Sethi, Shubham Maheshwari, Aditya Nagori, Rakesh Lodha
+Authors@R: c(
+              person("Tavpritesh", "Sethi", role = c("aut", "cre"), email = "tavsethi@stanford.edu, tavpriteshsethi@iiitd.ac.in"),
+              person("Shubham", "Maheshwari", role = c("aut", "cre"), email = "shubham14101@iiitd.ac.in")           
+            )
+Maintainer: The package maintainer <tavpriteshsethi@iiitd.ac.in>
+Contact: Tavpritesh Sethi<tavpriteshsethi@iiitd.ac.in>,Shubham Maheshwari<shubham14101@iiitd.ac.in> 
+Description: Publicly shared dashboard for "STEWARDING ANTIBIOTIC STEWARDSHIP IN ICUS WITH BAYESIAN ARTIFICIAL INTELLIGENCE"
+biocViews:
+Depends: R (>= 3.3.1)
+Imports: RBGL,graph,bnlearn,rhandsontable,shiny,shinydashboard,dplyr,visNetwork,shinyWidgets,tools,shinyalert,shinycssloaders,rintrojs,arules,psych,DT,linkcomm,igraph,shinyBS
+URL: https://github.com/SAFE-ICU/AMRsteward
+BugReports: https://github.com/SAFE-ICU/AMRsteward/issues
+Suggests: knitr, rmarkdown, rcompanion
+VignetteBuilder: knitr
+License: MIT License | file License
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
